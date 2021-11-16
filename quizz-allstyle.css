@@ -1,0 +1,40 @@
+body {
+  background-color: skyblue;
+}
+.question-answer-container {
+  display: flex;
+  flex-direction: column;
+  xjustify-content: center;
+}
+.tag-container {
+  display: flex;
+  justify-content: center;
+}
+.question-tags {
+  border: solid 1px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  xwidth: 320px;
+}
+
+.button-show {
+  width: 20%;
+}
+.answer-text {
+  text-align: left;
+  border: slateblue solid 2px;
+}
+.question-text {
+  text-align: left;
+  border: slateblue solid 2px;
+  border-radius: 10%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
