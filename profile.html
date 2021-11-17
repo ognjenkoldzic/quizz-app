@@ -9,37 +9,40 @@
     <script src="https://kit.fontawesome.com/ad89c507e4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div class="wrapper">
-    <header>
-   <div><h1>PROFILE</h1></div> <hr class="hr-top">    
-    </header>
-    
-    <main>
+    <div class="wrapper">
+        <header class="header"> 
+           <h1 class= "header__headline">QUIZ-APP</h1> 
+        </header>
+        <main class="main">
+            <h2 class="main__headline">Bookmarks</h2>
         
-        <section class="foto-name">
-            <div class="foto-name__foto"><img class="foto-name__foto--bild" src="Mario.webp" alt="Super Mario is posing" height="175px"> </div>
-            <div class="foto-name__name"><span class="foto-name__name--span">Profil-Name</span></div>
+        <section class="profile">
+            <div class="profile__foto"><img class="profile__foto--bild" src="Mario.webp" alt="Super Mario is posing" height="175px"> </div>
+            <div class="profile__name"><span class="profile__name--span">Profil-Name</span></div>
+            <p class="profile__about-me">About yourself Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eos ad in cum, beatae expedita omnis ea eum repudiandae praesentium.</p>
         </section>
-        <!--p noch richtig classe--> <p class="about-you">About yourself Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eos ad in cum, beatae expedita omnis ea eum repudiandae praesentium.</p>
-        <h2>Talent-Tags</h2>
-        <div class="talent-tags-contaioner">
-            <div class="talent-tags-contaioner__tags">Geografie</div>
-            <div class="talent-tags-contaioner__tags">Geschichte</div>
-            <div class="talent-tags-contaioner__tags">Musik</div>
-            <div class="talent-tags-contaioner__tags">Politik</div>
-
+        <section class="talent-tags">
+        <h2 class="talent-tags__headline">Talent-Tags</h2>
+        <div class="talent-tags__container">
+            <div class="talent-tags__containertalent--tags">Geografie</div>
+            <div class="talent-tags__containertalent--tags">Geschichte</div>
+            <div class="talent-tags__containertalent--tags">Musik</div>
+            <div class="talent-tags__containertalent--tags">Politik</div>
         </div>
-        <button class="log-in-button">Login</button>
+        </section>
+        <section class="profile__button">
+            <button>Logout</button>
+          </section>
 
   </main>
-  <footer>
-  <nav class="nav-bar">
-    <a class="nav-bar__a" href="index.html"><i class="fas fa-home"></i></a><!--name ändern zu index-->
-    <a class="nav-bar__a" href="bookmarks.html"><i class="fas fa-bookmark"></i></a>
-    <a class="nav-bar__a" href="create.html"><i class="far fa-plus-square"></i></a>
-    <a class="nav-bar__a" href="profile.html"><i class="far fa-user-circle"></i></a>
-    </nav>
-</footer>
+  <footer class="footer">
+        <nav class="footer__navbar">
+        <a href="index.html"><i class="fas fa-home fa-2x"></i></a><!--name ändern zu index-->
+        <a href="bookmarks.html"><i class="fas fa-bookmark fa-2x"></i></a>
+        <a href="create.html"><i class="far fa-plus-square fa-2x"></i></a>
+        <a href="profile.html"><i class="far fa-user-circle fa-2x"></i></a>
+        </nav>
+    </footer>
 </div>  
 </body>
 
