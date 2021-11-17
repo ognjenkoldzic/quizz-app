@@ -1,7 +1,7 @@
 body {
   background-color: skyblue;
 }
-.question-answer-container {
+.card-container {
   display: flex;
   flex-direction: column;
   xjustify-content: center;
