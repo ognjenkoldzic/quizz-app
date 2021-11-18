@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: rgb(214, 41, 99) solid;
+  border: var(--mario-font-color) solid;
   border-style: dashed;
 }
 
 .profile__foto--bild {
   border-radius: 50%;
-  border: rgb(214, 41, 99) solid 2px;
+  border: var(--mario-font-color) solid 2px;
   margin-top: 5px;
 }
 .profile__name--span {
@@ -25,7 +25,7 @@
   justify-content: space-evenly;
 }
 .talent-tags__containertalent--tags {
-  border: solid rgb(214, 41, 99);
+  border: solid var(--mario-font-color);
   border-style: double;
   padding: 10px;
   xtext-transform: uppercase;
@@ -38,7 +38,7 @@
   height: 100%;
   z-index: -1;
   transition: all 0.6s ease;
-  background: rgb(214, 41, 99);
+  background: var(--mario-font-color);
   content: "";
   transform: translate(-50%, -50%);
   position: absolute;

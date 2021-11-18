@@ -1,8 +1,10 @@
 .card {
   position: relative;
-  border: rgb(214, 41, 99) solid 1px;
+  border: var(--mario-font-color) solid 1px;
+  border-radius: 6px;
   padding: 10px;
   margin: 25px;
+  box-shadow: var(--mario-font-color) 3px 3px;
 }
 .card__tag-container {
   display: flex;
@@ -14,7 +16,7 @@
 }
 
 .card__tag-container--tags {
-  border: solid rgb(214, 41, 99);
+  border: solid var(--mario-font-color);
   border-style: double;
   padding: 10px;
 }
@@ -24,4 +26,5 @@
   position: absolute;
   top: -12px;
   width: 330px;
+  z-index: 999;
 }

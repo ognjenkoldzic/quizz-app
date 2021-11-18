@@ -1,6 +1,7 @@
 .footer__navbar {
   position: fixed;
   bottom: 0;
+  background-color: thistle;
 }
 .footer__list {
   display: flex;

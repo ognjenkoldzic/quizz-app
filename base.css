@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --main-bg-color: skyblue;
+  --mario-font-color: rgb(214, 41, 99);
+}
 .body {
-  background-color: skyblue;
+  background-color: var(--main-bg-color);
   xfont-family: "Super Mario Bros.";
 }
 .wrapper {
