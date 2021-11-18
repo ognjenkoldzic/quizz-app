@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create</title>
-    <link rel="stylesheet" href="create-style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="//db.onlinewebfonts.com/c/29f4c6fe36801450398679968448cf3d?family=Super+Mario+Bros." rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.cdnfonts.com/css/super-mario-256" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad89c507e4.js" crossorigin="anonymous"></script>
 </head>
-<body>
+</head>
+<body class="body create-body">
     <div class="wrapper">
-        <header>
-            <nav class="nav-bar">
-             <a href="index.html">HOME</a><!--name ändern zu index-->
-             <a href="bookmarks.html">BOOKMARKS</a>
-             <a href="create.html">CREATE</a>
-              <a href="profile.html">PROFILE</a>
-         </nav>
-     </header>
-     <main>
-        <h1>CREATE</h1>
-        <section class="question-create-main">
-            <div class="add-question-container">
-                <h2>Frage:</h2>
-                <textarea name="create-question" id="" cols="30" rows="10"></textarea>
-
-            </div>
-            <div class="add-answer-container">
-                <h2>Antwort:</h2>
-                <textarea name="create-answer" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div class="add-tags-container">
-                <h2>Tags:</h2>
-                <textarea name="create-tags" id="" cols="30" rows="10"></textarea>
-
-            </div>
-            <input  type="submit" value="SUBMIT">
-
-        </section> 
+        <header class="header"> 
+            <h1 class= "header__headline">QUIZ-APP</h1> 
+        </header>
+        <main class="maincreate-body">
+            <h2 class="main__headline">Create</h2>
+            <form action="" class="form">
+                <div class="add-question-container">
+                    <h2 class="card__headline">Frage:</h2>
+                    <textarea name="create-question" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="add-answer-container">
+                    <h2 class="card__headline">Antwort:</h2>
+                    <textarea name="create-answer" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="add-tags-container">
+                    <h2 class="card__headline">Tags:</h2>
+                    <textarea name="create-tags" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="form__button">Submit</button>
+            
+            </form>
+            
+        <footer class="footer">
+            <nav class="footer__navbar">
+                <a href="index.html"><i class="fas fa-home fa-2x"></i></a><!--name ändern zu index-->
+                <a href="bookmarks.html"><i class="fas fa-bookmark fa-2x"></i></a>
+                <a href="create.html"><i class="far fa-plus-square fa-2x"></i></a>
+                <a href="profile.html"><i class="far fa-user-circle fa-2x"></i></a>
+                </nav>
+        </footer>
     </div>       
 </body>
 </html>

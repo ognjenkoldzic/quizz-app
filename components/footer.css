@@ -1,0 +1,19 @@
+.footer__navbar {
+  position: fixed;
+  bottom: 0;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+.fas {
+  color: rgb(214, 41, 99);
+}
+.far {
+  color: rgb(214, 41, 99);
+}

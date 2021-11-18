@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-color: skyblue;
+  xfont-family: "Super Mario Bros.";
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main__headline {
+  font-family: "Super Mario Bros.";
+  font-size: 45px;
+  margin: 20px;
+}
+.create-body {
+  xbackground-image: url(https://c.tenor.com/KacVhPYaiCsAAAAC/mario-super-mario.gif);
+  background-color: #cccccc;
+}

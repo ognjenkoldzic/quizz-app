@@ -1,0 +1,9 @@
+.header {
+  font-family: "Super Mario Bros.";
+  font-size: 35px;
+  color: rgb(214, 41, 99);
+  margin: 0;
+}
+.header__headline {
+  margin: 10px;
+}

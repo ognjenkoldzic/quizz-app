@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  border: rgb(214, 41, 99) solid 1px;
+  padding: 10px;
+  margin: 25px;
+}
+.card__tag-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__headline {
+  font-family: "Super Mario 256", sans-serif;
+  font-size: 30px;
+}
+
+.card__tag-container--tags {
+  border: solid rgb(214, 41, 99);
+  border-style: double;
+  padding: 10px;
+}
+.card__tag-container--tags:hover {
+}
+.card__bookmark {
+  position: absolute;
+  top: -12px;
+  width: 330px;
+}
