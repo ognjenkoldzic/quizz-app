@@ -25,6 +25,7 @@
 .card__bookmark {
   position: absolute;
   top: -12px;
-  width: 330px;
+  xwidth: 330px;
   z-index: 999;
+  right: 20%;
 }

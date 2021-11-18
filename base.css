@@ -4,17 +4,23 @@
 :root {
   --main-bg-color: skyblue;
   --mario-font-color: rgb(214, 41, 99);
+  --secondary-color: thistle;
 }
 .body {
   background-color: var(--main-bg-color);
   xfont-family: "Super Mario Bros.";
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 0;
 }
-.wrapper {
+x.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  xposition: sticky;
+  width: 100%;
 }
 .main__headline {
   font-family: "Super Mario Bros.";
