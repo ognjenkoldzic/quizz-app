@@ -6,13 +6,27 @@
 }
 .footer__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 0;
+  margin: 0;
+  xbackground-color: brown;
 }
-li {
+.footer__list--inactive {
   display: inline;
   list-style: none;
+  xpadding-inline: 12%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 25%;
 }
+.footer__list--active {
+  display: inline;
+  list-style: none;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 25%;
+}
+
 .fas {
   color: rgb(214, 41, 99);
 }

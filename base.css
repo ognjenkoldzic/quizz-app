@@ -28,6 +28,54 @@ x.wrapper {
   margin: 20px;
 }
 .create-body {
-  xbackground-image: url(https://c.tenor.com/KacVhPYaiCsAAAAC/mario-super-mario.gif);
-  background-color: #cccccc;
+  background-image: url(https://c.tenor.com/CGn2lwGnPWkAAAAC/mario-super-mario.gif);
+  background-color: var(--main-bg-color);
+  background-size: cover;
+}
+
+button {
+  width: 78px;
+  height: 70px;
+  margin: 20px auto;
+  font-size: 4px;
+  position: relative;
+  display: block;
+}
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  box-shadow: 6em 0 black, 7em 0 black, 8em 0 black, 9em 0 black, 10em 0 black,
+    11em 0 black, 4em 1em black, 5em 1em black, 6em 1em black, 7em 1em red,
+    10em 1em red, 11em 1em black, 12em 1em black, 13em 1em black, 3em 2em black,
+    4em 2em black, 5em 2em red, 6em 2em red, 7em 2em red, 10em 2em red,
+    11em 2em red, 12em 2em red, 13em 2em black, 14em 2em black, 3em 3em black,
+    5em 3em red, 6em 3em red, 11em 3em red, 12em 3em red, 14em 3em black,
+    2em 4em black, 3em 4em black, 14em 4em black, 15em 4em black, 1em 5em black,
+    2em 5em black, 3em 5em red, 4em 5em red, 7em 5em red, 8em 5em red,
+    9em 5em red, 10em 5em red, 13em 5em red, 14em 5em red, 15em 5em black,
+    16em 5em black, 1em 6em black, 2em 6em red, 3em 6em red, 4em 6em red,
+    6em 6em red, 7em 6em red, 8em 6em red, 9em 6em red, 10em 6em red,
+    11em 6em red, 13em 6em red, 14em 6em red, 15em 6em red, 16em 6em black,
+    1em 7em black, 2em 7em red, 3em 7em red, 4em 7em red, 6em 7em red,
+    7em 7em red, 8em 7em red, 9em 7em red, 10em 7em red, 11em 7em red,
+    13em 7em red, 14em 7em red, 15em 7em red, 16em 7em black, 1em 8em black,
+    2em 8em red, 3em 8em red, 6em 8em red, 7em 8em red, 8em 8em red, 9em 8em red,
+    10em 8em red, 11em 8em red, 14em 8em red, 15em 8em red, 16em 8em black,
+    1em 9em black, 7em 9em red, 8em 9em red, 9em 9em red, 10em 9em red,
+    16em 9em black, 1em 10em black, 4em 10em black, 5em 10em black,
+    6em 10em black, 7em 10em black, 8em 10em black, 9em 10em black,
+    10em 10em black, 11em 10em black, 12em 10em black, 13em 10em black,
+    16em 10em black, 1em 11em black, 2em 11em black, 3em 11em black,
+    4em 11em black, 7em 11em black, 10em 11em black, 13em 11em black,
+    14em 11em black, 15em 11em black, 16em 11em black, 2em 12em black,
+    3em 12em black, 4em 12em black, 7em 12em black, 10em 12em black,
+    13em 12em black, 14em 12em black, 15em 12em black, 4em 13em black,
+    13em 13em black, 4em 14em black, 5em 14em black, 12em 14em black,
+    13em 14em black, 5em 15em black, 6em 15em black, 7em 15em black,
+    8em 15em black, 9em 15em black, 10em 15em black, 11em 15em black,
+    12em 15em black;
 }

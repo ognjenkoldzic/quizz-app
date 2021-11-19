@@ -10,6 +10,11 @@
   border-radius: 50%;
   border: var(--mario-font-color) solid 2px;
   margin-top: 5px;
+  transition: 1.5s all ease;
+}
+.profile__foto--bild:hover {
+  transform: rotate(180deg);
+  transition: 1.5s all ease;
 }
 .profile__name--span {
   margin-left: 30px;

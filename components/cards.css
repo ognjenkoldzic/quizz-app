@@ -19,13 +19,27 @@
   border: solid var(--mario-font-color);
   border-style: double;
   padding: 10px;
+  overflow: hidden;
+  transition: 1s all ease;
+  position: relative;
 }
-.card__tag-container--tags:hover {
+.card__tag-container--tags::before {
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.6s ease;
+  background: var(--mario-font-color);
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.card__tag-container--tags:hover::before {
+  width: 100%;
 }
 .card__bookmark {
   position: absolute;
-  top: -12px;
-  xwidth: 330px;
-  z-index: 999;
-  right: 20%;
+  top: -0.8rem;
+  right: 10%;
 }
