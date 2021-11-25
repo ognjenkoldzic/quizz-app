@@ -1,0 +1,45 @@
+.card {
+  position: relative;
+  border: var(--mario-font-color) solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 25px;
+  box-shadow: var(--mario-font-color) 3px 3px;
+}
+.card__tag-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__headline {
+  font-family: "Super Mario 256", sans-serif;
+  font-size: 30px;
+}
+
+.card__tag-container--tags {
+  border: solid var(--mario-font-color);
+  border-style: double;
+  padding: 10px;
+  overflow: hidden;
+  transition: 1s all ease;
+  position: relative;
+}
+.card__tag-container--tags::before {
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.6s ease;
+  background: var(--mario-font-color);
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.card__tag-container--tags:hover::before {
+  width: 100%;
+}
+.card__bookmark {
+  position: absolute;
+  top: -0.8rem;
+  right: 10%;
+}

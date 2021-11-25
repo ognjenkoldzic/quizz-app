@@ -1,0 +1,35 @@
+.footer__navbar {
+  position: fixed;
+  bottom: 0;
+  background-color: thistle;
+  width: 100%;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  xbackground-color: brown;
+}
+.footer__list--inactive {
+  display: inline;
+  list-style: none;
+  xpadding-inline: 12%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 25%;
+}
+.footer__list--active {
+  display: inline;
+  list-style: none;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  width: 25%;
+}
+
+.fas {
+  color: rgb(214, 41, 99);
+}
+.far {
+  color: rgb(214, 41, 99);
+}
