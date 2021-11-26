@@ -4,8 +4,13 @@ let answerPara = document.querySelectorAll('.card__answer')
 
 buttonAnswer.forEach((element, index) => {
 element.addEventListener('click', () => {
-    element.innerText.togg = "Hide Answer"
-    answerPara[index].classList.toggle('hidden')      
+    
+    answerPara[index].classList.toggle('hidden') 
+    if (element.innerHTML === "Show Answer") {
+        element.innerHTML = "Hide Answer"
+    } else {
+        element.innerHTML = "Show Answer"
+    }   
    })
 })
 
@@ -20,7 +25,7 @@ bookmark.addEventListener('click', () => {
 
 
 
-
+//element.innerText.togg = "Hide Answer"
 
 
 
