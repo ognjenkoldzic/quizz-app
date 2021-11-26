@@ -43,3 +43,7 @@
   top: -0.8rem;
   right: 10%;
 }
+
+.hidden {
+  display: none;
+}
